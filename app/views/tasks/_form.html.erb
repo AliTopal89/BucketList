@@ -1,0 +1,19 @@
+<%= form_for @task do |t| %>
+  <% if @task.errors.any? %>
+    <ul class='errors'>
+      <% @task.errors.full_messages.each do |err| %>
+        <li class='error'><%= err %></li>
+      <% end %>
+    </ul>
+  <% end %>
+  <%= t.label :title %>
+  <%= t.text_field :title %>
+  <br>
+  <%= t.label :body %>
+  <%= t.text_area :body %>
+  <br>
+  <%= t.label :img_url %>
+  <%= t.text_area :img_url %>
+
+  <%= t.submit %>
+<% end %>
