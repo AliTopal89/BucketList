@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 
+ruby '2.6.5'
+
+gem 'json'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '5.2.4.3'
+gem 'rails', '5.2.4.6'
 # Use postgresql as the database for Active Record
 gem 'pg'
 # Use SCSS for stylesheets
@@ -20,11 +23,7 @@ gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
-
-# Repeated two byte sequence of backslash and character exhausts the capacity of servers to process requests in earlier version 0.14
-gem 'websocket-extensions', '>= 0.1.5'
-
+gem 'sdoc'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
