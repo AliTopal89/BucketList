@@ -1,12 +1,12 @@
 source 'https://rubygems.org'
 
-ruby '2.7.2'
+ruby '3.2.5'
 
 gem 'json'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '6.1.7.7'
+gem 'rails', '7.1.5.2'
 # Use postgresql as the database for Active Record
-gem 'pg'
+gem 'pg', '1.6.2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
